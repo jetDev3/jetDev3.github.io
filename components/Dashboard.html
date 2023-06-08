@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../stylesheet/dashboard.css">
+</head>
+
+<body>
+  <div class="loading">
+    <i class="fa-solid fa-circle-notch fa-spin"></i>
+  </div>
+
+  <nav>
+    <img src="../images/logo.png" alt="" width="60px">
+    <div class="links-container">
+      <ul class="nav-links">
+        <li class="link">
+          Home
+        </li>
+        <li class="link">
+          Quiz
+        </li>
+        <li class="link">
+          Leaderboard
+        </li>
+        <li class="link">
+          Dashboard
+        </li>
+        <li> <button class="signOutBtn hide">Log Out</button>
+        </li>
+      </ul>
+      <div class="btn-container">
+        <button class="signinBtn btnLink">Sign In</button>
+      </div>
+    </div>
+    <i class="fa-solid fa-bars menu"></i>
+  </nav>
+
+  <span class="createQuizBtn">
+    <i class="fa-solid fa-plus createQuiz"></i>
+    </span>
+  <header class="header">
+    <div class="studentCount-container">
+      <img src="../images/user.png" alt="">
+      <div class="content">
+        <h3>Student</h3>
+        <span class="studentNum">00</span>
+      </div>
+
+    </div>
+
+    <div class="quizCount-container">
+      <img src="../images/quizImg.png" alt="">
+
+      <div class="content">
+        <h3>Quizzes</h3>
+        <span class="quizNum">00</span>
+      </div>
+    </div>
+  </header>
+  <hr>
+  
+  
+  <main>
+    <div class="student-list-container"></div>
+    <div class="created-quizzes-container">
+      <h3 class="headTxt">Recently Created Quizzes</h3>
+      <div class="thumbnail-container">
+        <img src="../images/user.png" alt="" class="thumbnail">
+      </div>
+    </div>
+  </main>
+  
+  <script src="../scripts/dashboard.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.container {
+  padding: 2rem;
+}
+
+
+.container .txt-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+
+}
+
+.sm {
+  justify-content: flex-end;
+}
+
+.seeMore {
+  cursor: pointer;
+  font-size: 15px;
+  color: var(--blue);
+}
+
+
+.subj-name {
+  font-size: 20px;
+}
+
+.quiz-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.quiz-container .img-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.quiz-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.img-container button {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 7px;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+/*##########  Hero Section ############*/
+
+header{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+  gap: 1rem;
+    margin-bottom:1.5rem;
+
+}
+
+.hero-cards{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 120%;
+  gap:2rem;
+}
+
+.card,.heroTxt{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card{
+  border-radius: 7px;
+  border: 1px solid dodgerblue;
+}
+
+.card button,.heroTxt button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #00aeef;
+    border-radius: 7px;
+    font-weight: 400;
+}
+
+.heroTxt .hero-title{
+  font-weight: 400;
+}
+
+p{
+  font-weight: 300;
+  color: var(--sub-txt-clr);
+  font-size: 15px;
+}
+
+header .hero-cards .card-txt{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.heroTxt .btnLink{
+  background-color: #00aeef;
+  border: 1px solid #00aeef;
+  color: whitesmoke;
+}

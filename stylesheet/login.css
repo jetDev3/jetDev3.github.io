@@ -1,0 +1,106 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+header span{
+  display: flex;
+  gap: 0.5rem;
+  color: #B1B1B1;
+  font-weight: 300;
+  width: 50%;
+}
+
+header span .switchForm{
+  color: dodgerblue;
+  text-decoration: underline;
+cursor: pointer;
+}
+
+main{
+  margin-top: 5rem;
+}
+main form,.section-form{
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+form input, .section-form input{
+  width: 100%;
+  border-radius: 7px;
+  padding: 1rem 2rem;
+  border: 1px solid #B1B1B1;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+form button, .section-form button{
+  padding: 15px 20px;
+  width: 50%;
+  align-self: flex-end;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  border: 1px solid dodgerblue;
+  border-radius: 7px;
+}
+
+form .head, .section-form .head{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.section-form{
+  width: 350px;
+}
+
+.section-form p{
+  color:#B1B1B1 ;
+  margin-top: 0.5rem;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.section-form input{
+width: 100%;
+}
+
+.section-form .input{
+position: relative;
+}
+
+.section-form i{
+  position: absolute;
+  top: 40%; right: 1rem;
+  transform: translateY(-40%);
+  color: #E60024;
+  display: none;
+  
+}
+
+.section-form .input:hover i{
+  display: block;
+}
+
+.btn-container{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-container button{
+  padding: 15px 20px;
+}
+
+#addsecBtn{
+  background-color: #2ED882;
+  border: 1px solid #2ED882;
+}
+
+#sectionDoneBtn{
+  background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+
+}

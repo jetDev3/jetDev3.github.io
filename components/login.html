@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../stylesheet/login.css">
+</head>
+
+<body>
+    <div class="loading">
+      <i class="fa-solid fa-circle-notch fa-spin"></i>
+    </div>
+  <header class="flex-sb">
+    <img src="../images/logo.png" alt="logo of kasiglahan ElemSchool" class="logo" width="60px">
+    <span class="switch-container">
+      <p class="spanTxt">
+        Don't have an account? </p>
+      <p class="switchForm">Sign Up</p>
+    </span>
+  </header>
+
+  <main>
+    <div class="signIn-container ">
+      <form action="#" class="sign-in-form">
+        <h1 class="head">Welcome Back!</h1>
+        <div class="input-container">
+          <input type="email" name="email" id="sign-in-email" placeholder="Email" required>
+          <input type="password" name="password" id="sign-in-password" placeholder="Password" required>
+        </div>
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+
+
+    <div class="signUp-container hide ">
+      <form action="#" class="sign-up-form">
+        <h1 class="head">Create an account</h1>
+        <div class="input-container">
+          <input type="text" name="Username" class="username" placeholder="username" required>
+          <input type="email" name="email" id="sign-up-email" placeholder="Email" required>
+
+          <input type="password" name="password" id="sign-up-password" placeholder="Password" required>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+
+    <div class="section-form-container hide ">
+      <div class="section-form">
+        <div class="formTxt">
+          <h1 class="head">Sections</h1>
+          <p>*please the section/s where you teach</p>
+        </div>
+
+        <div class="input-container">
+          <div class="input sec 1">
+            <input type="text" class="sectionName" placeholder="section" required>
+            <i class="fa-solid fa-trash-can 1 deleteInput"></i>
+          </div>
+        </div>
+
+
+
+
+        <div class="btn-container">
+          <button id="addsecBtn">Add Section</button>
+          <button type="submit" class="submitBtn" id="sectionDoneBtn">
+            Done</button>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <script src="../scripts/login.js" type="module"></script>
+</body>
+
+</html>

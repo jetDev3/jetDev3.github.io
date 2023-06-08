@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../stylesheet/createQuiz.css">
+  <link rel="stylesheet" href="../stylesheet/QuizStylesheet/tof.css">
+</head>
+
+<body>
+    <div class="loading">
+    <i class="fa-solid fa-circle-notch fa-spin"></i>
+  </div>
+  <div class="quiz-template-container hide">
+    <div class="quiz-template-btn">
+      <button class="cancelBtn">cancel</button>
+      <button class="uploadBtn">Add</button>
+    </div>
+  </div>
+  
+  
+  
+  <div class="select-quiz-template">
+    <div class="head-buttons">
+      <button class="cancelBtn">Cancel</button>
+      <select name="Subject" id="Subject">
+        <option value="Math">Math</option>
+        <option value="English">English</option>
+        <option value="Science">Science</option>
+        <option value="Filipino">Filipino</option>
+      </select>
+      <button class="uploadBtn">Upload</button>
+    </div>
+    <div class="quiz-thumbnail">
+     <input type="file" id="thumbnailInput" accept="image/*">
+     <img src="" id="thumbnailImg"alt="">
+    </div>
+
+    <div class="quiz-setting">
+      <div class="quiz-type-container">
+        <p>Quiz Type:</p>
+        <select name="quizType" id="quizType">
+          <option value="TrueOrFalse">True/False</option>
+        </select>
+      </div>
+
+    </div>
+
+
+    <div class="question-list">
+
+      <div class="createQuizBtn">
+        <i class="fa-solid fa-plus"></i>
+
+      </div>
+    </div>
+  </div>
+
+
+
+<script src="../scripts/createQuiz.js" type="module"></script>
+</body>
+
+</html>

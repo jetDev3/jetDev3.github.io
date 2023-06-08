@@ -1,0 +1,96 @@
+.TOF{
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px; height: 100%;
+  border: 1px solid lightgrey;
+}
+
+.quiz-info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0; 
+    border-bottom: 1px solid lightgrey;
+}
+.quiz-num-container{
+  display: flex;
+}
+
+
+
+.question-data-container{
+  height: 30vh; width: 100%;
+}
+
+.question-data-container input{
+  height: 100%; width: 100%;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  border-radius: 7px 7px 0 0;
+  border: 0;
+}
+
+
+
+.answer-container{
+  display: flex;
+  width: 100%;
+height: 60vh;
+}
+
+.answer-container >* {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; width: 100%;
+  cursor: pointer;
+  border-radius: 0 0 7px 7px;
+  color: whitesmoke;
+  font-size: 30px;
+  border: 1px solid #CECECE;
+}
+
+.true{
+  color: dodgerblue;
+  transition: 400ms ease;
+  border: 1px solid dodgerblue;
+}
+
+.false{
+  color: #E60024;
+  border: 1px solid #E60024;
+    transition: 400ms ease;
+}
+
+.true:hover{
+  background-color: dodgerblue;
+  color: whitesmoke;
+}
+
+.false:hover {
+  background-color: #E60024;
+  color: whitesmoke;
+}
+
+
+
+
+.true.answer{
+  background-color: dodgerblue;
+  color: whitesmoke;
+}
+
+.false.answer {
+  background-color: #E60024;
+  color: whitesmoke;
+}
+
+

@@ -1,0 +1,2 @@
+-create a default image per subj.
+-study how to store images and connect it to firebase rtdb
